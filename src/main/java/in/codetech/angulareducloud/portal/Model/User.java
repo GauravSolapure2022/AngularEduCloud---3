@@ -116,4 +116,21 @@ public class User {
 		// TODO Auto-generated constructor stub
 	}
 
+	public User(Long id, String username, String password, String firstName, String lastName, String email,
+			String phone, boolean enabled, String profile, Set<UserRole> userRoles) {
+		super();
+		this.id = id;
+		this.username = username;
+		this.password = password;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.email = email;
+		this.phone = phone;
+		this.enabled = enabled;
+		this.profile = profile;
+		this.userRoles = userRoles;
+	}
+	
+	
+
 }

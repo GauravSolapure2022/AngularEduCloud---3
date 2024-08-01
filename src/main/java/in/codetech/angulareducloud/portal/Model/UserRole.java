@@ -47,5 +47,12 @@ public class UserRole {
 		this.userRoleId = userRoleId;
 	}
 
+	public UserRole(Long userRoleId, User user, Role role) {
+		super();
+		this.userRoleId = userRoleId;
+		this.user = user;
+		this.role = role;
+	}
+
 	
 }
